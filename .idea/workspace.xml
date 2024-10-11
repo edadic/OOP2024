@@ -5,12 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="22ef9516-83dc-4dc6-97f6-592ad0ae6404" name="Changes" comment="Week 1 commit">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/week2/labs/task1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/week2/labs/task2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/week2/labs/task3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/week2/labs/task4.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/week2/labs/task6.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/week2/labs/task7.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -57,6 +53,9 @@
     "Application.task4.executor": "Run",
     "Application.task5.executor": "Run",
     "Application.task6.executor": "Run",
+    "Application.task7.executor": "Run",
+    "Application.task8.executor": "Run",
+    "Application.task9.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "week2",
@@ -69,9 +68,9 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.task5">
-    <configuration name="task1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="week2.labs.task1" />
+  <component name="RunManager" selected="Application.task10">
+    <configuration name="task10" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="week2.labs.task10" />
       <module name="OOP2024" />
       <extension name="coverage">
         <pattern>
@@ -83,8 +82,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="task2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="week2.labs.task2" />
+    <configuration name="task6" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="week2.labs.task6" />
       <module name="OOP2024" />
       <extension name="coverage">
         <pattern>
@@ -96,8 +95,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="task3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="week2.labs.task3" />
+    <configuration name="task7" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="week2.labs.task7" />
       <module name="OOP2024" />
       <extension name="coverage">
         <pattern>
@@ -109,8 +108,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="task4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="week2.labs.task4" />
+    <configuration name="task8" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="week2.labs.task8" />
       <module name="OOP2024" />
       <extension name="coverage">
         <pattern>
@@ -122,8 +121,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="task5" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="week2.labs.task5" />
+    <configuration name="task9" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="week2.labs.task9" />
       <module name="OOP2024" />
       <extension name="coverage">
         <pattern>
@@ -137,11 +136,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.task5" />
-        <item itemvalue="Application.task4" />
-        <item itemvalue="Application.task3" />
-        <item itemvalue="Application.task2" />
-        <item itemvalue="Application.task1" />
+        <item itemvalue="Application.task10" />
+        <item itemvalue="Application.task9" />
+        <item itemvalue="Application.task8" />
+        <item itemvalue="Application.task7" />
+        <item itemvalue="Application.task6" />
       </list>
     </recent_temporary>
   </component>
@@ -164,7 +163,7 @@
       <workItem from="1728040984861" duration="2234000" />
       <workItem from="1728299354640" duration="51000" />
       <workItem from="1728300523022" duration="3632000" />
-      <workItem from="1728478795294" duration="5582000" />
+      <workItem from="1728478795294" duration="6816000" />
     </task>
     <task id="LOCAL-00001" summary="Week 1 commit">
       <option name="closed" value="true" />
