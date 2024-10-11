@@ -36,3 +36,5 @@ build/
 
 ### Mac OS ###
 .DS_Store
+/src/main/java/week2/livecoding/livesession.java
+/src/main/java/week2/livecoding/livesessionlab.java
