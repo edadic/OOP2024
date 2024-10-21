@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="22ef9516-83dc-4dc6-97f6-592ad0ae6404" name="Changes" comment="Week 1 commit">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/week4/labs/task2/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/week4/labs/task2/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,7 +72,7 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.Main">
+  <component name="RunManager" selected="Application.week4.labs.task2.Main">
     <configuration name="DataStructures" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="week3.labs.DataStructures" />
       <module name="OOP2024" />
@@ -125,12 +125,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="task10" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="week2.labs.task10" />
+    <configuration name="week4.labs.task2.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="week4.labs.task2.Main" />
       <module name="OOP2024" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="week2.labs.*" />
+          <option name="PATTERN" value="week4.labs.task2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -140,11 +140,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.week4.labs.task2.Main" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.MainTask2" />
         <item itemvalue="Application.MainTask1" />
         <item itemvalue="Application.DataStructures" />
-        <item itemvalue="Application.task10" />
       </list>
     </recent_temporary>
   </component>
@@ -171,7 +171,7 @@
       <workItem from="1729083876010" duration="11822000" />
       <workItem from="1729249502184" duration="83000" />
       <workItem from="1729437919258" duration="71000" />
-      <workItem from="1729517004776" duration="1651000" />
+      <workItem from="1729517004776" duration="3672000" />
     </task>
     <task id="LOCAL-00001" summary="Week 1 commit">
       <option name="closed" value="true" />
