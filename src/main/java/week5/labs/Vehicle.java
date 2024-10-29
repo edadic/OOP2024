@@ -2,6 +2,7 @@ package week5.labs;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Scanner;
 
 abstract class Vehicle {
 
@@ -71,13 +72,27 @@ abstract class Vehicle {
         }
     }
 
+    public void performMaintenance(Vehicle vehicle) {
+        if(vehicle instanceof Car) {
+            Car car = (Car) vehicle;
+            car.repair();
+            car.drive(1000);
+        } else if (vehicle instanceof Truck) {
+            Truck truck = (Truck) vehicle;
+            truck.repair();
+            truck.haul(5000);
+        } else if (vehicle instanceof Motorcycle) {
+            Motorcycle motorcycle = (Motorcycle) vehicle;
+            motorcycle.race(300);
+        }
+    }
+
     @Override
     public String toString() {
-        return "Vehicle{" +
-                "modelName='" + modelName + '\'' +
-                ", mileage=" + mileage +
-                ", health=" + health +
-                '}';
+        return
+                "Model name: " + modelName +
+                " Mileage=" + mileage +
+                " Health=" + health;
     }
 }
 
@@ -210,10 +225,46 @@ class Main {
         vehicles.add(new Truck("Ford F150", 120000, 70));
         vehicles.add(new Motorcycle("Harley Davidson", 20000, 90));
 
+        System.out.println("Vehicles at the beginning ");
+        for(Vehicle vehicle : vehicles){
+            System.out.println(vehicle);
+        }
+        System.out.println("Vehicles after a some driving ");
         for(Vehicle vehicle : vehicles) {
+            vehicle.service();
+            vehicle.simulateYear();
+
+            if(vehicle instanceof Car) {
+                Car car = (Car) vehicle;
+                car.drive(10000);
+            } else if (vehicle instanceof Truck) {
+                Truck truck = (Truck) vehicle;
+                truck.haul(6000);
+            } else if (vehicle instanceof Motorcycle) {
+                Motorcycle motorcycle = (Motorcycle) vehicle;
+                motorcycle.race(500);
+            }
             System.out.println(vehicle);
         }
 
+        Scanner reader = new Scanner(System.in);
+        System.out.println("Enter the vehicle index to perform maintenance: ");
+        for (int i = 0; i < vehicles.size(); i++) {
+            System.out.println(i + ". " + vehicles.get(i).getModelName());
+        }
+
+        int choice = reader.nextInt();
+        if(choice >= 0 && choice < vehicles.size()) {
+            Vehicle selectedVehicle = vehicles.get(choice);
+            selectedVehicle.performMaintenance(selectedVehicle);
+            System.out.println("Maintenance performed for " + selectedVehicle.getModelName());
+        } else {
+            System.out.println("Invalid choice");
+        }
+        System.out.println("Vehicles after maintenance ");
+        for(Vehicle vehicle : vehicles){
+            System.out.println(vehicle);
+        }
     }
 }
 

@@ -6,6 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="22ef9516-83dc-4dc6-97f6-592ad0ae6404" name="Changes" comment="Week 1 commit">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/week5/labs/Vehicle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/week5/labs/Vehicle.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -175,7 +176,7 @@
       <workItem from="1729517004776" duration="4588000" />
       <workItem from="1729603238593" duration="3061000" />
       <workItem from="1729867422672" duration="75000" />
-      <workItem from="1730125467039" duration="4044000" />
+      <workItem from="1730125467039" duration="7303000" />
     </task>
     <task id="LOCAL-00001" summary="Week 1 commit">
       <option name="closed" value="true" />
