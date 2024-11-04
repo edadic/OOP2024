@@ -5,8 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="22ef9516-83dc-4dc6-97f6-592ad0ae6404" name="Changes" comment="Week 1 commit">
+      <change afterPath="$PROJECT_DIR$/src/main/java/week6/labs/Tasks.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/week5/labs/Vehicle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/week5/labs/Vehicle.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,10 +46,14 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "ASKED_MARK_IGNORED_FILES_AS_EXCLUDED": "true",
+    "Application.BinarySearch.executor": "Run",
     "Application.DataStructures.executor": "Run",
     "Application.LiveSession.executor": "Run",
     "Application.Main.executor": "Run",
     "Application.MainTask2.executor": "Run",
+    "Application.NightSky.executor": "Run",
+    "Application.TaskOne.executor": "Run",
+    "Application.Tasks.executor": "Run",
     "Application.livesession.executor": "Run",
     "Application.task1.executor": "Run",
     "Application.task10.executor": "Run",
@@ -64,7 +69,7 @@
     "Application.week5.labs.Main.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "week5",
+    "git-widget-placeholder": "week6",
     "kotlin-language-version-configured": "true",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -74,7 +79,20 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.week5.labs.Main">
+  <component name="RunManager" selected="Application.BinarySearch">
+    <configuration name="BinarySearch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="week6.labs.BinarySearch" />
+      <module name="OOP2024" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="week6.labs.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="week4.labs.people.Main" />
       <module name="OOP2024" />
@@ -88,12 +106,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MainTask1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="week3.labs.MainTask1" />
+    <configuration name="NightSky" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="week6.labs.NightSky" />
       <module name="OOP2024" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="week3.labs.*" />
+          <option name="PATTERN" value="week6.labs.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -101,25 +119,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MainTask2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="week3.labs.MainTask2" />
+    <configuration name="Tasks" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="week6.labs.Tasks" />
       <module name="OOP2024" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="week3.labs.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="week4.labs.task2.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="week4.labs.task2.Main" />
-      <module name="OOP2024" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="week4.labs.task2.*" />
+          <option name="PATTERN" value="week6.labs.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -142,11 +147,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.BinarySearch" />
+        <item itemvalue="Application.NightSky" />
+        <item itemvalue="Application.Tasks" />
         <item itemvalue="Application.week5.labs.Main" />
         <item itemvalue="Application.Main" />
-        <item itemvalue="Application.week4.labs.task2.Main" />
-        <item itemvalue="Application.MainTask2" />
-        <item itemvalue="Application.MainTask1" />
       </list>
     </recent_temporary>
   </component>
@@ -176,7 +181,10 @@
       <workItem from="1729517004776" duration="4588000" />
       <workItem from="1729603238593" duration="3061000" />
       <workItem from="1729867422672" duration="75000" />
-      <workItem from="1730125467039" duration="7303000" />
+      <workItem from="1730125467039" duration="8192000" />
+      <workItem from="1730233487370" duration="5000" />
+      <workItem from="1730233543033" duration="4599000" />
+      <workItem from="1730753107837" duration="3600000" />
     </task>
     <task id="LOCAL-00001" summary="Week 1 commit">
       <option name="closed" value="true" />
