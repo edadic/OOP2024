@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="22ef9516-83dc-4dc6-97f6-592ad0ae6404" name="Changes" comment="Week 1 commit">
-      <change afterPath="$PROJECT_DIR$/src/main/java/week7/labs/ECommerceDiscountEngine.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/week7/labs/EmployeeManagementSystem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/week7/labs/SalesReport.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -51,6 +51,7 @@
     "Application.DataStructures.executor": "Run",
     "Application.Dictionary.executor": "Run",
     "Application.ECommerceDiscountEngine.executor": "Run",
+    "Application.EmployeeManagementSystem.executor": "Run",
     "Application.GenericsTasks.executor": "Run",
     "Application.HashMapTasks.executor": "Run",
     "Application.Library (1).executor": "Run",
@@ -93,9 +94,9 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.LibraryLocator">
-    <configuration name="ECommerceDiscountEngine" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="week7.labs.ECommerceDiscountEngine" />
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="EmployeeManagementSystem" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="week7.labs.EmployeeManagementSystem" />
       <module name="OOP2024" />
       <extension name="coverage">
         <pattern>
@@ -120,12 +121,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MainC" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="week7.livecoding.MainC" />
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="week7.labs.Main" />
       <module name="OOP2024" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="week7.livecoding.*" />
+          <option name="PATTERN" value="week7.labs.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -133,8 +134,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MainC2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="week7.livecoding.MainC2" />
+    <configuration name="MainC" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="week7.livecoding.MainC" />
       <module name="OOP2024" />
       <extension name="coverage">
         <pattern>
@@ -161,11 +162,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.EmployeeManagementSystem" />
         <item itemvalue="Application.LibraryLocator" />
         <item itemvalue="Application.MainC" />
         <item itemvalue="Application.MainC3" />
-        <item itemvalue="Application.ECommerceDiscountEngine" />
-        <item itemvalue="Application.MainC2" />
       </list>
     </recent_temporary>
   </component>
@@ -201,7 +202,7 @@
       <workItem from="1730753107837" duration="8780000" />
       <workItem from="1730900077049" duration="4820000" />
       <workItem from="1731095093965" duration="5030000" />
-      <workItem from="1731436752906" duration="11713000" />
+      <workItem from="1731436752906" duration="16362000" />
     </task>
     <task id="LOCAL-00001" summary="Week 1 commit">
       <option name="closed" value="true" />
