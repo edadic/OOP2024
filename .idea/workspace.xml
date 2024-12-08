@@ -5,8 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="22ef9516-83dc-4dc6-97f6-592ad0ae6404" name="Changes" comment="Week 1 commit">
-      <change afterPath="$PROJECT_DIR$/src/main/java/week7/labs/EmployeeManagementSystem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/week7/labs/SalesReport.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -52,6 +51,7 @@
     "Application.Dictionary.executor": "Run",
     "Application.ECommerceDiscountEngine.executor": "Run",
     "Application.EmployeeManagementSystem.executor": "Run",
+    "Application.Events.executor": "Run",
     "Application.GenericsTasks.executor": "Run",
     "Application.HashMapTasks.executor": "Run",
     "Application.Library (1).executor": "Run",
@@ -59,12 +59,22 @@
     "Application.LibraryLocator.executor": "Run",
     "Application.LiveSession.executor": "Run",
     "Application.Main.executor": "Run",
+    "Application.MainApplication.executor": "Run",
+    "Application.MainApplication1.executor": "Run",
     "Application.MainC.executor": "Run",
     "Application.MainC2.executor": "Run",
     "Application.MainC3.executor": "Run",
+    "Application.MainRun.executor": "Run",
     "Application.MainTask2.executor": "Run",
     "Application.NightSky.executor": "Run",
     "Application.PromissoryNote.executor": "Run",
+    "Application.Q1.executor": "Run",
+    "Application.Q11.executor": "Run",
+    "Application.Q12.executor": "Debug",
+    "Application.Q13.executor": "Run",
+    "Application.Q3.executor": "Run",
+    "Application.Q4.executor": "Run",
+    "Application.Q5.executor": "Run",
     "Application.TaskOne.executor": "Run",
     "Application.Tasks.executor": "Run",
     "Application.TextUserInterface.executor": "Run",
@@ -84,23 +94,29 @@
     "Application.week7.livecoding.lambdas.Main.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "week7",
+    "git-widget-placeholder": "week10",
     "kotlin-language-version-configured": "true",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.Main">
-    <configuration name="EmployeeManagementSystem" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="week7.labs.EmployeeManagementSystem" />
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="week7.livecoding.quiz3" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.MessagingSystem">
+    <configuration name="Events" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="week10.labs.Events" />
       <module name="OOP2024" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="week7.labs.*" />
+          <option name="PATTERN" value="week10.labs.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -108,12 +124,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LibraryLocator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="week7.labs.LibraryLocator" />
+    <configuration name="MessagingSystem" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="week10.labs.MessagingSystem" />
       <module name="OOP2024" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="week7.labs.*" />
+          <option name="PATTERN" value="week10.labs.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -121,12 +137,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="week7.labs.Main" />
+    <configuration name="Playlist" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="week10.labs.Playlist" />
       <module name="OOP2024" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="week7.labs.*" />
+          <option name="PATTERN" value="week10.labs.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -134,12 +150,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MainC" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="week7.livecoding.MainC" />
+    <configuration name="Q3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="week7.livecoding.realtest.Q3" />
       <module name="OOP2024" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="week7.livecoding.*" />
+          <option name="PATTERN" value="week7.livecoding.realtest.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -147,12 +163,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MainC3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="week7.livecoding.MainC3" />
+    <configuration name="Start" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="week10.labs.Start" />
       <module name="OOP2024" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="week7.livecoding.*" />
+          <option name="PATTERN" value="week10.labs.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -162,11 +178,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Main" />
-        <item itemvalue="Application.EmployeeManagementSystem" />
-        <item itemvalue="Application.LibraryLocator" />
-        <item itemvalue="Application.MainC" />
-        <item itemvalue="Application.MainC3" />
+        <item itemvalue="Application.MessagingSystem" />
+        <item itemvalue="Application.Events" />
+        <item itemvalue="Application.Start" />
+        <item itemvalue="Application.Playlist" />
+        <item itemvalue="Application.Q3" />
       </list>
     </recent_temporary>
   </component>
@@ -202,7 +218,13 @@
       <workItem from="1730753107837" duration="8780000" />
       <workItem from="1730900077049" duration="4820000" />
       <workItem from="1731095093965" duration="5030000" />
-      <workItem from="1731436752906" duration="16362000" />
+      <workItem from="1731436752906" duration="17097000" />
+      <workItem from="1731966816458" duration="14513000" />
+      <workItem from="1732015740186" duration="1480000" />
+      <workItem from="1732020856439" duration="21000" />
+      <workItem from="1732020886301" duration="76000" />
+      <workItem from="1732020970354" duration="3554000" />
+      <workItem from="1733527424051" duration="4124000" />
     </task>
     <task id="LOCAL-00001" summary="Week 1 commit">
       <option name="closed" value="true" />
@@ -222,5 +244,15 @@
     <MESSAGE value="inital commit" />
     <MESSAGE value="Week 1 commit" />
     <option name="LAST_COMMIT_MESSAGE" value="Week 1 commit" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.util.ConcurrentModificationException" package="java.util" />
+          <option name="timeStamp" value="5" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
