@@ -1,0 +1,5 @@
+2024-12-08 23:40:35 | Event Type: Logout | User ID: 484
+2024-12-08 23:40:35 | Event Type: Logout | User ID: 114
+2024-12-08 23:40:35 | Event Type: Logout | User ID: 913
+2024-12-08 23:40:35 | Event Type: Error | User ID: 232
+2024-12-08 23:40:35 | Event Type: Error | User ID: 423
