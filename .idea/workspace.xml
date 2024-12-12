@@ -7,6 +7,8 @@
     <list default="true" id="22ef9516-83dc-4dc6-97f6-592ad0ae6404" name="Changes" comment="Week 1 commit">
       <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/week11/labs/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/week11/labs/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,7 +68,9 @@
     "Application.MainC3.executor": "Run",
     "Application.MainRun.executor": "Run",
     "Application.MainTask2.executor": "Run",
+    "Application.MessagingSystem.executor": "Run",
     "Application.NightSky.executor": "Run",
+    "Application.Playlist.executor": "Run",
     "Application.PromissoryNote.executor": "Run",
     "Application.Q1.executor": "Run",
     "Application.Q11.executor": "Run",
@@ -75,6 +79,7 @@
     "Application.Q3.executor": "Run",
     "Application.Q4.executor": "Run",
     "Application.Q5.executor": "Run",
+    "Application.Start.executor": "Run",
     "Application.TaskOne.executor": "Run",
     "Application.Tasks.executor": "Run",
     "Application.TextUserInterface.executor": "Run",
@@ -92,9 +97,21 @@
     "Application.week4.labs.task2.Main.executor": "Run",
     "Application.week5.labs.Main.executor": "Run",
     "Application.week7.livecoding.lambdas.Main.executor": "Run",
+    "JUnit.StudentSystemTest.executor": "Run",
+    "JUnit.StudentSystemTest.testExceptionForEmptyStudentList.executor": "Run",
+    "JUnit.StudentSystemTest.testExceptionMessageForEmptyStudentList.executor": "Run",
+    "JUnit.StudentSystemTest.testHighestGPAStudent.executor": "Run",
+    "JUnit.StudentSystemTest.testIfStudentPresent.executor": "Run",
+    "JUnit.StudentSystemTest.testLargestName.executor": "Run",
+    "JUnit.StudentSystemTest.testNamesArray.executor": "Run",
+    "JUnit.StudentSystemTest.testSameStudent.executor": "Run",
+    "JUnit.StudentSystemTest.testSize.executor": "Run",
+    "JUnit.StudentSystemTest.testStudentNull.executor": "Run",
+    "JUnit.StudentSystemTest.testStudentWithId100.executor": "Run",
+    "JUnit.StudentSystemTest.testStudents.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "week10",
+    "git-widget-placeholder": "week11",
     "kotlin-language-version-configured": "true",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -106,17 +123,21 @@
   }
 }]]></component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java/week11/labs/tests" />
+      <recent name="$PROJECT_DIR$/src/main/java/week11/labs" />
+    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="week7.livecoding.quiz3" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MessagingSystem">
-    <configuration name="Events" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="week10.labs.Events" />
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="week11.labs.Main" />
       <module name="OOP2024" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="week10.labs.*" />
+          <option name="PATTERN" value="week11.labs.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -124,65 +145,76 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MessagingSystem" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="week10.labs.MessagingSystem" />
+    <configuration name="StudentSystemTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="OOP2024" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="week10.labs.*" />
+          <option name="PATTERN" value="week11.labs.tests.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="week11.labs.tests" />
+      <option name="MAIN_CLASS_NAME" value="week11.labs.tests.StudentSystemTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Playlist" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="week10.labs.Playlist" />
+    <configuration name="StudentSystemTest.testIfStudentPresent" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="OOP2024" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="week10.labs.*" />
+          <option name="PATTERN" value="week11.labs.tests.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="week11.labs.tests" />
+      <option name="MAIN_CLASS_NAME" value="week11.labs.tests.StudentSystemTest" />
+      <option name="METHOD_NAME" value="testIfStudentPresent" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Q3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="week7.livecoding.realtest.Q3" />
+    <configuration name="StudentSystemTest.testSameStudent" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="OOP2024" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="week7.livecoding.realtest.*" />
+          <option name="PATTERN" value="week11.labs.tests.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="week11.labs.tests" />
+      <option name="MAIN_CLASS_NAME" value="week11.labs.tests.StudentSystemTest" />
+      <option name="METHOD_NAME" value="testSameStudent" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Start" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="week10.labs.Start" />
+    <configuration name="StudentSystemTest.testStudents" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="OOP2024" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="week10.labs.*" />
+          <option name="PATTERN" value="week11.labs.tests.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="week11.labs.tests" />
+      <option name="MAIN_CLASS_NAME" value="week11.labs.tests.StudentSystemTest" />
+      <option name="METHOD_NAME" value="testStudents" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.MessagingSystem" />
-        <item itemvalue="Application.Events" />
-        <item itemvalue="Application.Start" />
-        <item itemvalue="Application.Playlist" />
-        <item itemvalue="Application.Q3" />
+        <item itemvalue="Application.Main" />
+        <item itemvalue="JUnit.StudentSystemTest.testIfStudentPresent" />
+        <item itemvalue="JUnit.StudentSystemTest" />
+        <item itemvalue="JUnit.StudentSystemTest.testSameStudent" />
+        <item itemvalue="JUnit.StudentSystemTest.testStudents" />
       </list>
     </recent_temporary>
   </component>
@@ -224,7 +256,9 @@
       <workItem from="1732020856439" duration="21000" />
       <workItem from="1732020886301" duration="76000" />
       <workItem from="1732020970354" duration="3554000" />
-      <workItem from="1733527424051" duration="4124000" />
+      <workItem from="1733527424051" duration="5525000" />
+      <workItem from="1733997919379" duration="753000" />
+      <workItem from="1733998682567" duration="2445000" />
     </task>
     <task id="LOCAL-00001" summary="Week 1 commit">
       <option name="closed" value="true" />
