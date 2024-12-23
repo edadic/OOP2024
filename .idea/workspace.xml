@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="22ef9516-83dc-4dc6-97f6-592ad0ae6404" name="Changes" comment="Week 1 commit" />
+    <list default="true" id="22ef9516-83dc-4dc6-97f6-592ad0ae6404" name="Changes" comment="Week 1 commit">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/week12/labs/ChatApplicationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/week12/labs/ChatApplicationTest.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -34,7 +38,9 @@
   &quot;associatedIndex&quot;: 8
 }</component>
   <component name="ProjectId" id="2myFbwYUxVFnaJ7GoeMWcGYxYab" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -44,6 +50,7 @@
     "ASKED_MARK_IGNORED_FILES_AS_EXCLUDED": "true",
     "Application.BinarySearch.executor": "Run",
     "Application.Book.executor": "Run",
+    "Application.ChatApplication.executor": "Run",
     "Application.DataStructures.executor": "Run",
     "Application.Dictionary.executor": "Run",
     "Application.ECommerceDiscountEngine.executor": "Run",
@@ -89,9 +96,11 @@
     "Application.task7.executor": "Run",
     "Application.task8.executor": "Run",
     "Application.task9.executor": "Run",
+    "Application.week11.livecoding.Main.executor": "Run",
     "Application.week4.labs.task2.Main.executor": "Run",
     "Application.week5.labs.Main.executor": "Run",
     "Application.week7.livecoding.lambdas.Main.executor": "Run",
+    "JUnit.ChatApplicationTest.executor": "Run",
     "JUnit.StudentSystemTest.executor": "Run",
     "JUnit.StudentSystemTest.testExceptionForEmptyStudentList.executor": "Run",
     "JUnit.StudentSystemTest.testExceptionMessageForEmptyStudentList.executor": "Run",
@@ -104,9 +113,10 @@
     "JUnit.StudentSystemTest.testStudentNull.executor": "Run",
     "JUnit.StudentSystemTest.testStudentWithId100.executor": "Run",
     "JUnit.StudentSystemTest.testStudents.executor": "Run",
+    "JUnit.UserTest.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "week11",
+    "git-widget-placeholder": "week12",
     "kotlin-language-version-configured": "true",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -126,7 +136,20 @@
       <recent name="week7.livecoding.quiz3" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main">
+  <component name="RunManager" selected="Application.ChatApplication">
+    <configuration name="ChatApplication" type="Application" factoryName="Application" singleton="false" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="week12.labs.ChatApplication" />
+      <module name="OOP2024" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="week12.labs.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="week11.labs.Main" />
       <module name="OOP2024" />
@@ -140,76 +163,70 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StudentSystemTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration default="true" type="Application" factoryName="Application">
+      <module name="OOP2024" />
+      <option name="PROGRAM_PARAMETERS" value="User 127.0.0.1" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="week11.livecoding.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="week11.livecoding.Main" />
       <module name="OOP2024" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="week11.labs.tests.*" />
+          <option name="PATTERN" value="week11.livecoding.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="week11.labs.tests" />
-      <option name="MAIN_CLASS_NAME" value="week11.labs.tests.StudentSystemTest" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ChatApplicationTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="OOP2024" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="week12.labs.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="week12.labs" />
+      <option name="MAIN_CLASS_NAME" value="week12.labs.ChatApplicationTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StudentSystemTest.testIfStudentPresent" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="UserTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="OOP2024" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="week11.labs.tests.*" />
+          <option name="PATTERN" value="week11.livecoding.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="week11.labs.tests" />
-      <option name="MAIN_CLASS_NAME" value="week11.labs.tests.StudentSystemTest" />
-      <option name="METHOD_NAME" value="testIfStudentPresent" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="PACKAGE_NAME" value="week11.livecoding" />
+      <option name="MAIN_CLASS_NAME" value="week11.livecoding.UserTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StudentSystemTest.testSameStudent" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="OOP2024" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="week11.labs.tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="week11.labs.tests" />
-      <option name="MAIN_CLASS_NAME" value="week11.labs.tests.StudentSystemTest" />
-      <option name="METHOD_NAME" value="testSameStudent" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="StudentSystemTest.testStudents" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="OOP2024" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="week11.labs.tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="week11.labs.tests" />
-      <option name="MAIN_CLASS_NAME" value="week11.labs.tests.StudentSystemTest" />
-      <option name="METHOD_NAME" value="testStudents" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+    <list>
+      <item itemvalue="Application.ChatApplication" />
+      <item itemvalue="Application.Main" />
+      <item itemvalue="Application.week11.livecoding.Main" />
+      <item itemvalue="JUnit.ChatApplicationTest" />
+      <item itemvalue="JUnit.UserTest" />
+    </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ChatApplication" />
+        <item itemvalue="JUnit.ChatApplicationTest" />
+        <item itemvalue="JUnit.UserTest" />
+        <item itemvalue="Application.week11.livecoding.Main" />
         <item itemvalue="Application.Main" />
-        <item itemvalue="JUnit.StudentSystemTest.testIfStudentPresent" />
-        <item itemvalue="JUnit.StudentSystemTest" />
-        <item itemvalue="JUnit.StudentSystemTest.testSameStudent" />
-        <item itemvalue="JUnit.StudentSystemTest.testStudents" />
       </list>
     </recent_temporary>
   </component>
@@ -254,6 +271,8 @@
       <workItem from="1733527424051" duration="5525000" />
       <workItem from="1733997919379" duration="753000" />
       <workItem from="1733998682567" duration="2639000" />
+      <workItem from="1734001335255" duration="528000" />
+      <workItem from="1734526655430" duration="9878000" />
     </task>
     <task id="LOCAL-00001" summary="Week 1 commit">
       <option name="closed" value="true" />
